@@ -5,7 +5,7 @@ const myTable = new MyTable();
 const run = async () => {
     const all = await myTable.getAllRecords();
     const single = await myTable.getRecordById(1);
-    const entry = await myTable.createMessage('test message');
+    const entry = await myTable.createMessage('{"message": "test message"}');
 
     console.log('all => ', all);
     console.log('single => ', single);
