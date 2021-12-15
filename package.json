@@ -11,5 +11,8 @@
   "scripts": {
     "test": "jest",
     "coverage": "jest --coverage"
+  },
+  "dependencies": {
+    "mysql": "^2.18.1"
   }
 }

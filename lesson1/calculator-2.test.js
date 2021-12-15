@@ -1,5 +1,4 @@
 const Calculator = require('./calculator-2');
-// const util = require('./util');
 
 /**
  * we want to mock the util because we already have a test for this
