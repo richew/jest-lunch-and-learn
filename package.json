@@ -1,0 +1,15 @@
+{
+  "name": "jest-lunch-and-learn",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:richew/jest-lunch-and-learn.git",
+  "author": "Richard Williamson <richard.williamson@brandlive.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^27.4.5"
+  },
+  "scripts": {
+    "test": "jest",
+    "coverage": "jest --coverage"
+  }
+}
